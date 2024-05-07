@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color:  #2a2825;
+}
+
+header {
+    height: 300px;
+    background-color: black;
+
+}
+
+.modelo{
+    margin-left: 100px;
+    display: flex;
+    width: 800px;
+    height: 1150px;
+    border-bottom: 2px solid #7e5428;
+}
+
+.mod{
+    display: flex;
+    flex-direction: column;
+}
+
+.conhecidos{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    color: white;
+}
+
+.conhecidos h1{
+    width: 800px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    color: #7e5428;
+    font-size: 38px;
+}
+
+.conhecidos p{
+    font-size: 20px; 
+    padding-bottom: 30px;
+}
+
+.subme{
+    width: 800px;
+}
+
+.subme h2{
+    font-size: 30px;
+    color: #7e5428;
+}
+
+.subme .sub{
+    display: flex;
+    margin-top: 15px;
+}
+
+.subme .sub img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.subme .sub p{
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.pistola{
+    width: 800px;
+    margin-top: 20px;
+}
+
+.pistola h2{
+    font-size: 30px;
+    color: #7e5428;
+}
+
+.pistola .pist{
+    display: flex;
+    margin-top: 15px;
+}
+
+.pistola .pist img{
+    display: flex;
+    width: 870px;
+    border-radius: 10px;
+    height: 160px;
+}
+
+.pistola .pist p{
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.shotgun{
+    width: 800px;
+    margin-top: 20px;
+}
+
+.shotgun h2{
+    font-size: 30px;
+    color: #7e5428;
+}
+
+.shotgun .shot{
+    display: flex;
+    margin-top: 15px;
+}
+
+.shotgun .shot img{
+    display: flex;
+    width: 840px;
+    border-radius: 10px;
+    height: 150px;
+}
+
+.shotgun .shot p{
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.sniper{
+    width: 800px;
+    margin-top: 20px;
+}
+
+.sniper h2{
+    font-size: 30px;
+    color: #7e5428;
+}
+
+.sniper .sni{
+    display: flex;
+    margin-top: 15px;
+}
+
+.sniper .sni img{
+    display: flex;
+    width: 840px;
+    border-radius: 10px;
+    height: 150px;
+}
+
+.sniper .sni p{
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.modelo span{
+    color: #7e5428;
+}
+
+.teste{
+    display: flex;
+    width: 620px;
+    height: 1530px;
+    background-color: #2a2825;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.teste .categoria{
+    background-color: #25231f;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 340px;
+}
+
+.categoria .titulo{
+    height: 60px;
+    background-color: #3e260c;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.categoria ul a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    font-size: 15px;
+}
+
+.categoria ul a:hover{
+    text-decoration: underline;
+}
+
+.categoria ul{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+
+.categoria .pesquisa{
+    background-color: #3e260c;
+    height: 60px;
+}
+
+.pesquisa input{
+    background: 0;
+    border: none;
+    width: 200px;
+    outline: 0;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 60px;
+    margin-top: 15px;
+    color: white;
+}
+
+.teste .comentario{
+    margin-top: 40px;
+    display: flex;
+    background-color: #25231f;
+    flex-direction: column;
+    width: 300px;
+    height: 340px;
+}
+
+.comentario .comments{
+    height: 60px;
+    background-color: #3e260c;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.comentario .coment{
+    color: white;
+    width: 210px;
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.coment .comen1, .comen2, .comen3{
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3e260c;
+    height: 60px;
+}
+
+
+.form{
+    height: 600px;
+    width: 800px;
+    margin-left: 100px;
+    background-color: #2a2825;
+}
+
+.join{
+    color: #b0702c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nome_email{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.nome input{
+    height: 40px;
+    width: 300px;
+    background: 0;
+    outline: 0;
+    border: 2px solid #7e5428;
+    color: #7e5428;
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+.email input{
+    margin-left: 30px;
+    height: 40px;
+    width: 300px;
+    background: 0;
+    outline: 0;
+    border: 2px solid #7e5428;
+    color: #7e5428;
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+.email input::placeholder{
+    color: #7e5428;
+
+}
+
+.nome input::placeholder{
+    color: #7e5428;
+}
+
+.save{
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.message{
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.message textarea{
+    width: 600px;
+    height: 200px;
+    max-width: 600px;
+    max-height: 200px;
+    min-width: 600px;
+    min-height: 200px;
+    border: 2px solid #7e5428;
+    outline: 0;
+    background: 0;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #7e5428;
+    font-size: 17px;
+}
+
+.message textarea::placeholder{
+    color: #7e5428;
+    font-size: 17px;
+}
+
+.using{
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.using a{
+    text-decoration: none;
+    color: #7e5428;
+}
+
+.enviar{
+    width: 200px;
+    height: 50px;
+    background-color: #2a2825;
+    border: 2px solid #7e5428;
+    color: #7e5428;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    color: #2a2825;
+    background-color: #7e5428;
+    transition: 0.5s;
+}
